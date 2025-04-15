@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const bcrypt = require('bcrypt'); // ✅ correct
+const bcrypt = require('bcryptjs'); // ❌ wrong
 
 const jwt = require('jsonwebtoken');
 const bodyParser = require('body-parser');
